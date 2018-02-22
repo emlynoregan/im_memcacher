@@ -1,3 +1,1 @@
 im_util
-GoogleAppEngineCloudStorageClient
-cloudpickle

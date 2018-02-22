@@ -7,15 +7,15 @@ except ImportError:
     from distutils.core import setup
 
 dist = setup(
-    name='im_gcscacher',
+    name='im_memcacher',
     version='0.1.0',
-    description='A decorator for caching into gcs on google app engine, python standard environment',
+    description='A decorator for memoizing a function using memcache for google app engine, python standard environment',
     author='Emlyn O\'Regan',
     author_email='emlynoregan@gmail.com',
-    url='https://github.com/emlynoregan/im_task',
+    url='https://github.com/emlynoregan/im_memcacher',
     license='../LICENSE.txt',
-    packages=['im_gcscacher'],
-    install_requires=['im_util', 'GoogleAppEngineCloudStorageClient', 'cloudpickle'],
+    packages=['im_memcacher'],
+    install_requires=['im_util'],
     long_description=open('../README.md').read(),
     classifiers=[
         'Development Status :: 3 - Alpha',
